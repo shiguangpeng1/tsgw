@@ -1,12 +1,12 @@
 <template>
     <div>
-        <h1>关于我们</h1>
+        <h1>产品案例</h1>
     </div>
 </template>
 
 <script>
     export default {
-        name: "About"
+        name: "Case"
     }
 </script>
 
