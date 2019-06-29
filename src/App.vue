@@ -26,5 +26,9 @@
     a{
       color:#333;
     }
+    img{
+      width: 100%;
+    }
+
   }
 </style>

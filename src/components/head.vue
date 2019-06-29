@@ -28,12 +28,12 @@
         <div id="myCarousel" class="carousel slide">
             <!-- 轮播（Carousel）指标 -->
             <ol class="carousel-indicators">
-                <li v-for="i in 5" :key="i" :class="i===1?'active':''" data-target="#myCarousel" :data-slide-to="i-1"></li>
+                <li v-for="i in 3" :key="i" :class="i===1?'active':''" data-target="#myCarousel" :data-slide-to="i-1"></li>
             </ol>
             <!-- 轮播（Carousel）项目 -->
             <div class="carousel-inner">
-                <div class="item" v-for="i in 5" :key="i" :class="i===1?'active':''">
-                    <img src="../assets/img/banner.jpg" alt="First slide">
+                <div class="item" v-for="i in 3" :key="i" :class="i===1?'active':''">
+                    <img :src="require('../assets/img/banner'+(i-1)+'.png')" alt="First slide">
                 </div>
             </div>
             <!-- 轮播（Carousel）导航 -->
